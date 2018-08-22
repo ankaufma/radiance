@@ -57,7 +57,7 @@ public class SeaGlassSkin extends SubstanceSkin {
 	 */
 	public SeaGlassSkin() {
 		SubstanceSkin.ColorSchemes schemes = SubstanceSkin
-				.getColorSchemes("test/samples/seaglass/skin/seaglass.colorschemes");
+				.getColorSchemes("org/pushingpixels/samples/substance/seaglass/skin/seaglass.colorschemes");
 
 		SubstanceColorScheme activeScheme = schemes.get("Sea Glass Active");
 		SubstanceColorScheme enabledScheme = schemes.get("Sea Glass Enabled");
